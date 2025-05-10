@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #112240;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #112240   ;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #8f94fb;
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+
+section, footer {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #1c1f4a;
+    color: white;
+    border-radius: 12px;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.profile-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.profile-title span {
+    font-size: 15px;
+    font-weight: normal;
+    color: #ccc;
+}
+
+.header-new {
+    background: #0b1a2c;
+    color: white;
+    padding: 3%;
+    margin: 0;
+}
+
+h1, h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+li, h3 {
+    font-size: 18px;
+    list-style: none;
+}
+
+li ,div{
+    font-size: 13px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: #ffff
+  }
+
+  .footer-list li a  {
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none; color: inherit;
+  }
+  
+  .footer-list li:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+
+.job {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+.job h3, .job h4 {
+    margin: 0;
+}
+

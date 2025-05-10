@@ -1,0 +1,24 @@
+/* Responsive layout untuk HP atau layar kecil */
+@media (max-width: 600px) {
+    header, section, footer {
+      margin: 10px;
+      padding: 15px;
+    }
+  
+    header h1 {
+      font-size: 1.4rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    div {
+        font-size: 0.9rem;
+    }
+  }
+  
