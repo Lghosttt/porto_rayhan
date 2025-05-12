@@ -13,6 +13,13 @@ body {
     line-height: 1.6;
 }
 
+ul li{
+    background-color: #112240;
+    padding-left: 0rem !important;
+
+}
+
+
 .container {
     display: flex;
     min-height: 100vh;
@@ -31,6 +38,7 @@ body {
 .sidebar ul {
     list-style: none;
     padding: 0;
+
 }
 
 .sidebar ul li {
@@ -95,15 +103,18 @@ h1, h2 {
 
 h2 {
     margin-bottom: 15px;
+    background-color: #112240;
 }
 
 li, h3 {
     font-size: 18px;
     list-style: none;
+    background-color: #112240;
 }
 
 li ,div{
     font-size: 13px;
+    background-color: #112240;
 }
 
 .footer-list {
